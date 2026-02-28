@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Student Registration Form </title>
+    </head> 
+
+    <h1>Student Registration Form</h1>
+    
+    <h2>Personal Information</h2>
+
+<form> 
+    <label for First Name> First Name: </label>
+    <input type="text" placeholder="Enter First Name"> <br>
+    <br>
+   
+    <label for Middle Name> Middle Name: </label>
+    <input type="text" placeholder="Enter Middle Name"> <br>
+    <br>
+    
+    <label for Last Name> Last Name: </label>
+    <input type="text" placeholder="Enter Last Name"> <br>
+    <br>
+   
+  <label for Gender> Gender: </label>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label><br>
+  <br>
+
+  <label for Date of Birth> Date of Birth: </label>
+  <input type="date"><br>
+<br>
+
+  <label for age>Age:</label>
+  <input type="number" placeholder="Enter your Age"><br>
+<br>
+
+<label for Nationality> Nationality: </label>
+<input type="text" placeholder="Enter your Nationality"><br>
+<br>
+
+<label for Religion> Religion: </label>
+<input type="text" placeholder="Enter your Religion"><br>
+<br>
+
+<label for Blood Group> Blood Group: </label>
+<input type="text" placeholder="Enter your Blood Group"><br>
+<br>
+
+<label for Profile Photo>Profile Photo:</label> <input type="file" name="fileToUpload" id="imageUpload" accept="image/png, image/jpeg" />
+<br>
+<br>
+<label for Marital Status>Marital Status:</label>
+<select name="maritalStatus">
+  <option value="single">Single</option>
+  <option value="married">Married</option>
+  <option value="divorced">Divorced</option>
+</select><br>
+<br>
+
+<hr>
+
+<h2>Contact Information</h2>
+
+<label for Email> Email Address: </label>
+<input type="email" placeholder="Enter your Email Address"><br>
+<br>
+
+<label for Mobile Number>  Mobile Number: </label>
+<input type="number" placeholder="Enter your Mobile Number"><br>
+<br>
+
+<label for Emergency Contact Name> Emergency Contact Name: </label>
+<input type="text" placeholder="Enter Emergency Contact Name"><br>
+<br>
+
+<label for Emergency Contact Number> Emergency Contact Number: </label>
+<input type="number" placeholder="Enter Emergency Contact Number"><br>
+<br>
+
+<label for Current Address> Current Address: </label>
+<textarea id="comments" name="comments" rows="5" cols="30"></textarea>
+<br>
+
+<label for Permanent Address> Permanent Address: </label>
+<textarea id="comments" name="comments" rows="5" cols="30"></textarea>
+<br>
+
+<label for City> City: </label>
+<input type="text" placeholder="Enter your City"><br>
+<br>
+
+<label for State> State: </label>
+<input type="text" placeholder="Enter your State"><br>
+<br>    
+
+<label for Country> Country: </label>
+<input type="text" placeholder="Enter your Country"><br>
+<br>
+
+<label for Zip Code> Zip/Postal Code: </label>
+<input type="number" placeholder="Enter your Zip/Postal Code"><br>
+<br>
+<hr>
+
+<h2>Academic Information</h2>
+
+<label for department> Department: </label>
+<select name="department">
+  <option value="computerScience">Computer Science</option>
+  <option value="tourism management">Tourism Management</option>
+  <option value="entreprenuership">Entrepreneurship</option>
+  <option value="accountancy">Accountancy</option>
+  <option value="accounting information systems">Accounting Information Systems</option>
+  </select>
+  <br>
+<br>
+  <label for programType> Program Type: </label>
+  <input type="radio" id="undergraduate" name="programType" value="undergraduate">
+  <label for="undergraduate">Undergraduate</label>
+  <input type="radio" id="postgraduate" name="programType" value="postgraduate">
+  <label for="postgraduate">Postgraduate</label>
+<br>
+
+<label for academicYear> Academic Year: </label>
+<input type="number" placeholder="Enter Academic Year"><br>
+<br>
+
+<label for semester> Semester: </label>
+<input type="number" placeholder="Enter Semester"><br>
+<br>
+
+<label for previousSchool> Previous School/College Name: </label>
+<input type="text" placeholder="Enter Previous School/College Name"><br>
+<br>
+
+<label for studentID> Student ID: </label>
+<input type="text" placeholder="Enter Student ID"><br>
+<br>
+<hr>
+
+<h2> Institutional Details</h2>
+
+<label for Admission Type> Admission Type: </label>
+  <input type="radio" id="Regular" name="admissionType" value="regular">
+  <label for="Regular">Regular</label>
+  <input type="radio" id="Transfer" name="admissionType" value="transfer">
+  <label for="Transfer">Transfer</label>
+<br>
+<br>
+<label for mode of study> Mode of Study: </label>
+  <input type="radio" id="Online" name="modeOfStudy" value="online">
+  <label for="Online">Online</label>
+  <input type="radio" id="Offline" name="modeOfStudy" value="offline">
+  <label for="Offline">Offline</label>
+  <br>
+<br>
+<label for Hostel Requirement> Hostel Requirement: </label>
+  <input type="radio" id="Yes" name="hostelRequirement" value="yes">
+  <label for="Yes">Yes</label>
+  <input type="radio" id="No" name="hostelRequirement" value="no">
+  <label for="No">No</label>
+<br>
+<br>
+
+<label for Transportation Requirement> Transportation Requirement: </label>
+<input type="text" placeholder="Enter Transportation Requirement"><br>
+<br>
+
+<label for scholarship applied> Scholarship Applied: </label>
+  <input type="radio" id="Yes" name="hostelRequirement" value="yes">
+  <label for="Yes">Yes</label>
+  <input type="radio" id="No" name="hostelRequirement" value="no">
+  <label for="No">No</label>
+  <br>
+<br>
+
+<label for Category> Category: </label>
+<select name="category">
+  <option value="General">General</option>
+  <option value="OBC">OBC</option>
+  <option value="SC">SC</option>
+  <option value="ST">ST</option>
+  <option value="etc.">etc.</option>
+</select><br>
+<br>
+<hr>
+
+<h2>Additional Information</h2>
+
+<label for hobbies> Hobbies/Interests: </label>
+<input type="text" placeholder="Enter your Hobbies"><br>
+<br>
+
+<label for skills> Skills: </label>
+<input type="text" placeholder="Enter your Skills"><br>
+<br>
+
+<label for languages> Languages Known: </label>
+<input type="text" placeholder="Enter Languages Known"><br>
+<br>
+
+  </form>
+
+
